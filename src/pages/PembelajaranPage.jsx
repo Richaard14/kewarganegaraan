@@ -56,10 +56,10 @@ export default function PembelajaranPage() {
   return (
     <div>
       {/* Header */}
-      <section className="py-5" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white' }}>
+      <section className="py-5" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white', animation: 'fadeInDown 0.8s ease-out' }}>
         <div className="container">
-          <h1 className="display-4 fw-bold mb-3">Pembelajaran 8 Minggu</h1>
-          <p className="lead">Perjalanan belajar yang mengubah perspektif</p>
+          <h1 className="display-4 fw-bold mb-3" style={{ animation: 'fadeInDown 0.8s ease-out 0.1s both' }}>Pembelajaran 8 Minggu</h1>
+          <p className="lead" style={{ animation: 'fadeInUp 0.8s ease-out 0.2s both' }}>Perjalanan belajar yang mengubah perspektif</p>
         </div>
       </section>
 
@@ -69,7 +69,7 @@ export default function PembelajaranPage() {
           <div className="row">
             <div className="col-lg-10 offset-lg-1">
               {timelineData.map((item, idx) => (
-                <div key={idx} className="mb-5">
+                <div key={idx} className="mb-5" style={{ animation: `fadeInUp 0.8s ease-out ${0.1 + idx * 0.15}s both` }}>
                   <div className="row">
                     {idx % 2 === 0 ? (
                       <>
@@ -145,9 +145,9 @@ export default function PembelajaranPage() {
       {/* Summary */}
       <section className="py-5">
         <div className="container">
-          <h2 className="fw-bold mb-5 fs-2 text-center">Kesimpulan Pembelajaran</h2>
+          <h2 className="fw-bold mb-5 fs-2 text-center" style={{ animation: 'fadeInDown 0.8s ease-out' }}>Kesimpulan Pembelajaran</h2>
           <div className="row g-4">
-            <div className="col-md-4">
+            <div className="col-md-4" style={{ animation: 'fadeInUp 0.8s ease-out 0.1s both' }}>
               <div className="card border-0 shadow-sm text-center">
                 <div className="card-body">
                   <div style={{ fontSize: '40px', marginBottom: '15px' }}>📈</div>

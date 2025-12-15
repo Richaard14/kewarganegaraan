@@ -50,10 +50,10 @@ export default function PencapaianPage() {
   return (
     <div>
       {/* Header */}
-      <section className="py-5" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white' }}>
+      <section className="py-5" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white', animation: 'fadeInDown 0.8s ease-out' }}>
         <div className="container">
-          <h1 className="display-4 fw-bold mb-3">Pencapaian</h1>
-          <p className="lead">Bukti nyata dari pembelajaran dan pertumbuhan</p>
+          <h1 className="display-4 fw-bold mb-3" style={{ animation: 'fadeInDown 0.8s ease-out 0.1s both' }}>Pencapaian</h1>
+          <p className="lead" style={{ animation: 'fadeInUp 0.8s ease-out 0.2s both' }}>Bukti nyata dari pembelajaran dan pertumbuhan</p>
         </div>
       </section>
 
@@ -61,8 +61,8 @@ export default function PencapaianPage() {
       <section className="py-5 bg-light">
         <div className="container">
           <div className="row g-4">
-            {achievements.map((achievement) => (
-              <div key={achievement.id} className="col-md-6 col-lg-4">
+            {achievements.map((achievement, idx) => (
+              <div key={achievement.id} className="col-md-6 col-lg-4" style={{ animation: `fadeInUp 0.8s ease-out ${0.1 + idx * 0.1}s both` }}>
                 <div className="card h-100 shadow-sm border-0 hover-shadow" 
                      style={{ transition: 'transform 0.3s ease, box-shadow 0.3s ease', cursor: 'pointer' }}
                      onMouseEnter={(e) => {
@@ -99,9 +99,9 @@ export default function PencapaianPage() {
       {/* Stats Section */}
       <section className="py-5">
         <div className="container">
-          <h2 className="fw-bold mb-5 fs-2 text-center">Ringkasan Pencapaian</h2>
+          <h2 className="fw-bold mb-5 fs-2 text-center" style={{ animation: 'fadeInDown 0.8s ease-out' }}>Ringkasan Pencapaian</h2>
           <div className="row g-4 text-center">
-            <div className="col-md-3">
+            <div className="col-md-3" style={{ animation: 'fadeInUp 0.8s ease-out 0.1s both' }}>
               <div className="card border-0 bg-primary text-white shadow-sm">
                 <div className="card-body py-5">
                   <h3 className="display-5 fw-bold">8</h3>
@@ -109,7 +109,7 @@ export default function PencapaianPage() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3" style={{ animation: 'fadeInUp 0.8s ease-out 0.2s both' }}>
               <div className="card border-0 bg-success text-white shadow-sm">
                 <div className="card-body py-5">
                   <h3 className="display-5 fw-bold">6+</h3>
@@ -117,7 +117,7 @@ export default function PencapaianPage() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3" style={{ animation: 'fadeInUp 0.8s ease-out 0.3s both' }}>
               <div className="card border-0 bg-warning text-white shadow-sm">
                 <div className="card-body py-5">
                   <h3 className="display-5 fw-bold">100%</h3>
@@ -125,7 +125,7 @@ export default function PencapaianPage() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3" style={{ animation: 'fadeInUp 0.8s ease-out 0.4s both' }}>
               <div className="card border-0 bg-info text-white shadow-sm">
                 <div className="card-body py-5">
                   <h3 className="display-5 fw-bold">∞</h3>
@@ -140,9 +140,9 @@ export default function PencapaianPage() {
       {/* Testimonial Section */}
       <section className="py-5 bg-light">
         <div className="container">
-          <h2 className="fw-bold mb-5 fs-2 text-center">Refleksi Pencapaian</h2>
+          <h2 className="fw-bold mb-5 fs-2 text-center" style={{ animation: 'fadeInDown 0.8s ease-out' }}>Refleksi Pencapaian</h2>
           <div className="row">
-            <div className="col-lg-8 offset-lg-2">
+            <div className="col-lg-8 offset-lg-2" style={{ animation: 'fadeInUp 0.8s ease-out 0.2s both' }}>
               <div className="card border-0 shadow">
                 <div className="card-body p-5">
                   <p className="fs-5 text-muted mb-4">

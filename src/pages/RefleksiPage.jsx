@@ -50,10 +50,10 @@ export default function RefleksiPage() {
   return (
     <div>
       {/* Header */}
-      <section className="py-5" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white' }}>
+      <section className="py-5" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white', animation: 'fadeInDown 0.8s ease-out' }}>
         <div className="container">
-          <h1 className="display-4 fw-bold mb-3">Refleksi Pribadi</h1>
-          <p className="lead">Perjalanan pemahaman tentang civic disposition</p>
+          <h1 className="display-4 fw-bold mb-3" style={{ animation: 'fadeInDown 0.8s ease-out 0.1s both' }}>Refleksi Pribadi</h1>
+          <p className="lead" style={{ animation: 'fadeInUp 0.8s ease-out 0.2s both' }}>Perjalanan pemahaman tentang civic disposition</p>
         </div>
       </section>
 
@@ -61,8 +61,8 @@ export default function RefleksiPage() {
       <section className="py-5 bg-light">
         <div className="container">
           <div className="row g-4">
-            {refleksiData.map((refleksi) => (
-              <div key={refleksi.id} className="col-lg-4">
+            {refleksiData.map((refleksi, idx) => (
+              <div key={refleksi.id} className="col-lg-4" style={{ animation: `fadeInUp 0.8s ease-out ${0.1 + idx * 0.1}s both` }}>
                 <div className="card h-100 shadow-sm border-0 cursor-pointer hover-shadow" 
                      onClick={() => toggleExpand(refleksi.id)}
                      style={{ cursor: 'pointer', transition: 'all 0.3s ease' }}>
@@ -105,8 +105,8 @@ export default function RefleksiPage() {
       {/* Detailed Reflection */}
       <section className="py-5">
         <div className="container">
-          <h2 className="fw-bold mb-5 fs-2">Ringkasan Refleksi Keseluruhan</h2>
-          <div className="card border-0 shadow">
+          <h2 className="fw-bold mb-5 fs-2" style={{ animation: 'fadeInDown 0.8s ease-out' }}>Ringkasan Refleksi Keseluruhan</h2>
+          <div className="card border-0 shadow" style={{ animation: 'fadeInUp 0.8s ease-out 0.2s both' }}>
             <div className="card-body p-5">
               <p className="fs-5 text-muted mb-4">
                 Melalui proses refleksi yang mendalam, saya telah memahami bahwa civic disposition bukan sekadar 

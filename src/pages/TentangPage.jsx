@@ -13,35 +13,33 @@ export default function TentangPage() {
       </section>
 
       {/* Main Content */}
-      <section className="py-5">
-        <div className="container">
-          <div className="row align-items-center g-5">
-            <div className="col-lg-5 animate-fade-in-left">
-              <div style={{ 
-                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', 
-                color: 'white',
-                padding: '40px',
-                borderRadius: '15px',
-                textAlign: 'center',
-                fontSize: '80px'
-              }} className="animate-float">
-                👨‍🎓
+<section className="py-5">
+  <div className="container">
+    <div className="row align-items-center g-5">
+      <div className="col-lg-5 animate-fade-in-left">
+        <div className="animate-float text-center">
+<img
+  src="/images/pprofile.jpg"
+  alt="Foto Profil"
+  style={{
+    width: '260px',
+    height: '260px',
+    objectFit: 'cover',
+    borderRadius: '50%'
+  }}
+/>
               </div>
             </div>
             <div className="col-lg-7 animate-fade-in-right">
               <h2 className="fw-bold mb-4 fs-3">Profil Singkat</h2>
               <p className="fs-5 text-muted mb-3">
-                Saya adalah seorang mahasiswa yang berkomitmen untuk memperdalam pemahaman mengenai civic disposition 
-                dan peran saya sebagai warga negara yang bertanggung jawab. 
+                Saya, Charsten Richard Tewu, mahasiswa Program Studi Informatika semester 3, memiliki komitmen untuk memperdalam pemahaman mengenai mata kuliah Kewarganegaraan serta peran saya sebagai warga negara yang bertanggung jawab.
               </p>
               <p className="fs-5 text-muted mb-3">
-                Portofolio ini merupakan dokumentasi perjalanan pembelajaran dan refleksi pribadi saya dalam memahami 
-                nilai-nilai kewarganegaraan yang penting.
+                Portofolio ini merupakan dokumentasi perjalanan pembelajaran dan refleksi pribadi saya dalam memahami nilai-nilai kewarganegaraan yang penting bagi kehidupan bermasyarakat, berbangsa, dan bernegara.
               </p>
               <p className="fs-5 text-muted">
-                Melalui perkuliahan ini, saya telah belajar tidak hanya secara teoritis, tetapi juga melalui pengalaman 
-                praktis yang bermakna. Saya berharap portofolio ini dapat menunjukkan komitmen saya terhadap pengembangan 
-                diri dan kontribusi positif kepada masyarakat.
+                Melalui perkuliahan ini, saya memperoleh pembelajaran tidak hanya secara teoritis, tetapi juga melalui pengalaman praktis yang bermakna. Saya berharap portofolio ini dapat mencerminkan komitmen saya terhadap pengembangan diri serta kontribusi positif yang dapat saya berikan kepada masyarakat.
               </p>
             </div>
           </div>

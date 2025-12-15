@@ -45,10 +45,10 @@ export default function KontakPage() {
   return (
     <div>
       {/* Header */}
-      <section className="py-5" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white' }}>
+      <section className="py-5" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white', animation: 'fadeInDown 0.8s ease-out' }}>
         <div className="container">
-          <h1 className="display-4 fw-bold mb-3">Hubungi Saya</h1>
-          <p className="lead">Mari terhubung dan berbagi pemikiran</p>
+          <h1 className="display-4 fw-bold mb-3" style={{ animation: 'fadeInDown 0.8s ease-out 0.1s both' }}>Hubungi Saya</h1>
+          <p className="lead" style={{ animation: 'fadeInUp 0.8s ease-out 0.2s both' }}>Mari terhubung dan berbagi pemikiran</p>
         </div>
       </section>
 
@@ -57,7 +57,7 @@ export default function KontakPage() {
         <div className="container">
           <div className="row g-5">
             {/* Contact Info */}
-            <div className="col-lg-4">
+            <div className="col-lg-4" style={{ animation: 'fadeInLeft 0.8s ease-out 0.2s both' }}>
               <h2 className="fw-bold mb-5">Informasi Kontak</h2>
 
               <div className="card mb-4 border-0 shadow-sm">
@@ -100,7 +100,7 @@ export default function KontakPage() {
             </div>
 
             {/* Contact Form */}
-            <div className="col-lg-8">
+            <div className="col-lg-8" style={{ animation: 'fadeInRight 0.8s ease-out 0.2s both' }}>
               <div className="card border-0 shadow">
                 <div className="card-body p-5">
                   <h2 className="card-title fw-bold mb-4">Kirim Pesan</h2>
@@ -187,7 +187,7 @@ export default function KontakPage() {
       {/* Social Links */}
       <section className="py-5">
         <div className="container text-center">
-          <h2 className="fw-bold mb-5">Terhubung di Media Sosial</h2>
+          <h2 className="fw-bold mb-5" style={{ animation: 'fadeInDown 0.8s ease-out' }}>Terhubung di Media Sosial</h2>
           <div className="d-flex justify-content-center gap-4 flex-wrap">
             <a href="#" className="btn btn-outline-primary btn-lg rounded-circle" 
                style={{ width: '60px', height: '60px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '24px' }}>
