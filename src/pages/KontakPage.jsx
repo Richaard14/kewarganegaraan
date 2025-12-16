@@ -45,10 +45,24 @@ export default function KontakPage() {
   return (
     <div>
       {/* Header */}
-      <section className="py-5" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white', animation: 'fadeInDown 0.8s ease-out' }}>
-        <div className="container">
-          <h1 className="display-4 fw-bold mb-3" style={{ animation: 'fadeInDown 0.8s ease-out 0.1s both' }}>Hubungi Saya</h1>
-          <p className="lead" style={{ animation: 'fadeInUp 0.8s ease-out 0.2s both' }}>Mari terhubung dan berbagi pemikiran</p>
+<section
+        className="py-5"
+        style={{
+          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+          color: 'white',
+          animation: 'fadeInDown 0.8s ease-out'
+        }}
+      >
+        <div className="container text-center">
+          <h1
+            className="display-4 fw-bold mb-3"
+            style={{ animation: 'fadeInDown 0.8s ease-out 0.1s both' }}
+          >
+            Hubungi Saya
+          </h1>
+          <p className="lead" style={{ animation: 'fadeInUp 0.8s ease-out 0.2s both' }}>
+            Saya siap mendengar dari Anda! Jangan ragu untuk menghubungi saya melalui formulir di bawah ini.
+          </p>
         </div>
       </section>
 
@@ -68,7 +82,7 @@ export default function KontakPage() {
                   </h5>
                   <p className="card-text text-muted">
                     <a href="mailto:your.email@example.com" className="text-decoration-none">
-                      your.email@example.com
+                      richardtewuu1@gamail.com
                     </a>
                   </p>
                 </div>
@@ -81,7 +95,7 @@ export default function KontakPage() {
                     Telepon
                   </h5>
                   <p className="card-text text-muted">
-                    +62 XXX XXXX XXXX
+                    +62 812 5265 2569
                   </p>
                 </div>
               </div>
@@ -93,7 +107,7 @@ export default function KontakPage() {
                     Lokasi
                   </h5>
                   <p className="card-text text-muted">
-                    Kota Anda, Negara Anda
+                    Tangerang, Indonesia
                   </p>
                 </div>
               </div>

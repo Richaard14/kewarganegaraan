@@ -7,38 +7,78 @@ export default function RefleksiPage() {
   const refleksiData = [
     {
       id: 1,
-      title: 'Kesadaran Diri sebagai Warga Negara',
-      icon: '🧠',
-      description: 'Pemahaman mendalam tentang peran dan tanggung jawab sebagai warga negara',
+      title: 'Pemahaman Pancasila dan Kewarganegaraan',
+      icon: '🧭',
+      description: 'Pancasila sebagai pedoman hidup dan pendidikan kewarganegaraan membentuk kesadaran warga negara',
       details: [
-        'Memahami hak dan kewajiban sebagai warga negara',
-        'Mengenal pentingnya partisipasi aktif dalam demokrasi',
-        'Kesadaran akan dampak pribadi terhadap komunitas',
-        'Menghargai keberagaman dalam masyarakat'
+        'Pancasila bukan sekadar simbol, tetapi nilai-nilai luhur bangsa yang membimbing perilaku',
+        'Pendidikan Kewarganegaraan membentuk kesadaran hak, kewajiban, dan tanggung jawab terhadap negara',
+        'Aktif dalam pembelajaran untuk memahami hubungan warga–negara secara mendalam'
       ]
     },
     {
       id: 2,
-      title: 'Kebersamaan dan Gotong Royong',
-      icon: '🤝',
-      description: 'Nilai-nilai kolaborasi dan kerja sama untuk kepentingan bersama',
+      title: 'Identitas Nasional dan Nasionalisme',
+      icon: '🇮🇩',
+      description: 'Kesadaran kolektif dan sejarah membentuk identitas dan rasa cinta tanah air',
       details: [
-        'Pentingnya kolaborasi dalam menyelesaikan masalah',
-        'Menghargai kontribusi setiap individu',
-        'Membangun komunitas yang solid dan saling mendukung',
-        'Gotong royong sebagai fondasi masyarakat Indonesia'
+        'Identitas nasional lahir dari kesadaran kolektif, pengalaman dijajah, dan tekad bersama',
+        'Sumpah Pemuda sebagai tonggak pembentukan kesadaran kebangsaan',
+        'Memahami sejarah kolonialisme menumbuhkan rasa cinta tanah air dan persatuan'
       ]
     },
     {
       id: 3,
-      title: 'Pengembangan Diri dan Pertumbuhan',
-      icon: '🌱',
-      description: 'Komitmen terhadap pembelajaran berkelanjutan dan peningkatan diri',
+      title: 'Hubungan Rakyat, Negara, dan Hukum',
+      icon: '⚖️',
+      description: 'Rakyat, negara, dan hukum terkait melalui kontrak sosial dan kesadaran hak politik',
       details: [
-        'Pembelajaran dari pengalaman dan refleksi',
-        'Mengembangkan keterampilan kepemimpinan',
-        'Adaptasi terhadap perubahan zaman',
-        'Kontribusi positif untuk masa depan yang lebih baik'
+        'Kekuasaan negara berasal dari rakyat dan harus dilegitimasi melalui hukum',
+        'Rakyat memiliki hak dan tanggung jawab untuk memastikan negara melaksanakan kontrak sosial',
+        'Memahami teori kontrak sosial (Hobbes, Locke, Rousseau) memperkuat kesadaran kritis'
+      ]
+    },
+    {
+      id: 4,
+      title: 'Ideologi dan Pandangan Hidup',
+      icon: '📚',
+      description: 'Pancasila sebagai ideologi terbuka membimbing tindakan dan sistem sosial-politik',
+      details: [
+        'Ideologi memengaruhi cara berpikir, bertindak, dan membentuk sistem sosial-politik',
+        'Pancasila sebagai panduan hidup yang mempersatukan keberagaman',
+        'Memahami berbagai ideologi dunia untuk menilai sistem sosial-politik secara kritis'
+      ]
+    },
+    {
+      id: 5,
+      title: 'Konstitusi dan Demokrasi',
+      icon: '🗳️',
+      description: 'Konstitusi dan demokrasi Pancasila menekankan hak, musyawarah, dan partisipasi aktif',
+      details: [
+        'Konstitusi melindungi hak, membatasi kekuasaan, dan menjamin stabilitas negara',
+        'Demokrasi Pancasila menekankan musyawarah, pemilu adil, dan perlindungan hak minoritas',
+        'Partisipasi aktif warga negara penting untuk menjaga kualitas demokrasi substantif'
+      ]
+    },
+    {
+      id: 6,
+      title: 'Fungsi dan Peran Negara',
+      icon: '🏛️',
+      description: 'Negara berperan membangun kesejahteraan, pendidikan, keamanan, dan keadilan',
+      details: [
+        'Negara tidak hanya menegakkan hukum tetapi juga membangun kesejahteraan dan keadilan',
+        'Kebijakan publik harus berbasis etika, transparansi, partisipasi, responsivitas, supremasi hukum, efisiensi, dan keadilan'
+      ]
+    },
+    {
+      id: 7,
+      title: 'Multikulturalisme dan Toleransi',
+      icon: '🌏',
+      description: 'Mengelola keberagaman dengan prinsip inklusivitas, toleransi, dan nilai Pancasila',
+      details: [
+        'Indonesia adalah negara multikultural yang harus dikelola dengan prinsip inklusivitas dan kesetaraan',
+        'Nilai Pancasila menjadi dasar etis dalam mengelola keberagaman',
+        'Mahasiswa perlu berperan aktif menciptakan lingkungan toleran dan menghargai perbedaan'
       ]
     }
   ];
@@ -50,10 +90,24 @@ export default function RefleksiPage() {
   return (
     <div>
       {/* Header */}
-      <section className="py-5" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white', animation: 'fadeInDown 0.8s ease-out' }}>
-        <div className="container">
-          <h1 className="display-4 fw-bold mb-3" style={{ animation: 'fadeInDown 0.8s ease-out 0.1s both' }}>Refleksi Pribadi</h1>
-          <p className="lead" style={{ animation: 'fadeInUp 0.8s ease-out 0.2s both' }}>Perjalanan pemahaman tentang civic disposition</p>
+<section
+        className="py-5"
+        style={{
+          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+          color: 'white',
+          animation: 'fadeInDown 0.8s ease-out'
+        }}
+      >
+        <div className="container text-center">
+          <h1
+            className="display-4 fw-bold mb-3"
+            style={{ animation: 'fadeInDown 0.8s ease-out 0.1s both' }}
+          >
+            Refleksi Pribadi
+          </h1>
+          <p className="lead" style={{ animation: 'fadeInUp 0.8s ease-out 0.2s both' }}>
+            Menyusun pemahaman dan pengalaman selama mempelajari mata kuliah Kewarganegaraan
+          </p>
         </div>
       </section>
 
@@ -105,21 +159,17 @@ export default function RefleksiPage() {
       {/* Detailed Reflection */}
       <section className="py-5">
         <div className="container">
-          <h2 className="fw-bold mb-5 fs-2" style={{ animation: 'fadeInDown 0.8s ease-out' }}>Ringkasan Refleksi Keseluruhan</h2>
+          <h2 className="fw-bold mb-5 fs-2" style={{ animation: 'fadeInDown 0.8s ease-out' }}>Kesimpulan Refleksi Pribadi</h2>
           <div className="card border-0 shadow" style={{ animation: 'fadeInUp 0.8s ease-out 0.2s both' }}>
             <div className="card-body p-5">
               <p className="fs-5 text-muted mb-4">
-                Melalui proses refleksi yang mendalam, saya telah memahami bahwa civic disposition bukan sekadar 
-                konsep teoritis, tetapi praktik nyata yang mempengaruhi setiap aspek kehidupan bermasyarakat.
+                Mata kuliah Pendidikan Kewarganegaraan membentuk kesadaran berbangsa sekaligus menumbuhkan sikap kritis terhadap kekuasaan, sekaligus membantu mahasiswa memahami peran aktif sebagai warga negara dalam menjaga demokrasi, keadilan, dan persatuan. Mata kuliah ini menekankan nilai Pancasila sebagai panduan hidup, dasar negara, dan kerangka etis dalam kehidupan sosial, sekaligus membuka pemikiran tentang pentingnya toleransi, multikulturalisme, dan kepedulian sosial sebagai kewajiban moral setiap warga negara.
               </p>
               <p className="fs-5 text-muted mb-4">
-                Kesadaran diri sebagai warga negara telah membuka mata saya tentang pentingnya partisipasi aktif. 
-                Kebersamaan mengajarkan saya bahwa kekuatan sejati terletak pada kesatuan dan gotong royong. 
-                Sementara itu, pengembangan diri terus mendorong saya untuk menjadi versi terbaik dari diri saya sendiri.
+                Jadi Refleksi singkat Saya:
               </p>
-              <p className="fs-5 text-muted">
-                Dengan pemahaman ini, saya berkomitmen untuk terus belajar, berkontribusi, dan tumbuh sebagai 
-                individu dan anggota masyarakat yang bertanggung jawab.
+              <p className="fs-5 text-muted mb-4">
+                Selama delapan pertemuan, saya belajar pentingnya memahami hak dan kewajiban sebagai warga negara serta berpartisipasi aktif dalam membangun kesadaran berbangsa. Identitas nasional, Pancasila, dan kontrak sosial rakyat–negara membimbing saya untuk hidup inklusif, menghargai keberagaman, dan mematuhi hukum. Demokrasi dan konstitusi menjadi kerangka untuk pemerintahan yang adil dan akuntabel, sementara multikulturalisme menegaskan perlunya toleransi, persatuan, dan harmoni di tengah keragaman Indonesia.
               </p>
             </div>
           </div>

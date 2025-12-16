@@ -14,15 +14,34 @@ export default function Navbar() {
     }}>
       <div className="container-fluid px-4" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '2rem', width: '100%' }}>
         {/* Brand - Left */}
-        <Link className="navbar-brand fw-bold" to="/" style={{ 
-          fontSize: '1.25rem', 
-          color: '#1a1a1a',
-          margin: 0,
-          whiteSpace: 'nowrap',
-          transition: 'all 0.3s ease'
-        }} onMouseEnter={(e) => { e.currentTarget.style.transform = 'scale(1.05)'; }} onMouseLeave={(e) => { e.currentTarget.style.transform = 'scale(1)'; }}>
-          Portfolio
-        </Link>
+<Link 
+  className="navbar-brand fw-bold d-flex align-items-center" 
+  to="/" 
+  style={{ 
+    fontSize: '1.25rem', 
+    color: '#1a1a1a',
+    margin: 0,
+    whiteSpace: 'nowrap',
+    transition: 'all 0.3s ease'
+  }}
+  onMouseEnter={(e) => { e.currentTarget.style.transform = 'scale(1.05)'; }} 
+  onMouseLeave={(e) => { e.currentTarget.style.transform = 'scale(1)'; }}
+>
+  {/* Logo bulat */}
+  <img 
+    src="/images/logo.png"  // ganti dengan path logo
+    alt="Logo" 
+    style={{ 
+      width: '31px',        // menyesuaikan ukuran navbar
+      height: '28px',       // proporsional dari 318x291
+      marginRight: '0.5rem', 
+      borderRadius: '50%',  // membuat logo bulat
+      objectFit: 'cover'    // menjaga agar tidak terdistorsi
+    }} 
+  />
+  PORTOFOLIO RICHARD
+</Link>
+
 
         {/* Menu Navigation - Center */}
         <div className="navbar-collapse" id="navbarNav" style={{ 
@@ -54,7 +73,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/pencapaian" style={{ color: '#1a1a1a', fontWeight: '500', transition: 'all 0.3s ease', padding: '0.5rem 1rem', borderRadius: '6px', margin: 0 }} onMouseEnter={(e) => { e.currentTarget.style.color = '#667eea'; e.currentTarget.style.backgroundColor = 'rgba(102, 126, 234, 0.1)'; }} onMouseLeave={(e) => { e.currentTarget.style.color = '#1a1a1a'; e.currentTarget.style.backgroundColor = 'transparent'; }}>
-                Pencapaian
+                Showcase Karya
               </Link>
             </li>
             <li className="nav-item">

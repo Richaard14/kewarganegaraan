@@ -27,10 +27,10 @@ export default function Footer() {
           <div className="col-md-4">
             <h5 className="fw-bold mb-4">Hubungi Saya</h5>
             <p className="text-white-50 mb-2">
-              📧 Email: your.email@example.com
+              📧 Email: richardtewuu1@gmail.com
             </p>
             <p className="text-white-50 mb-3">
-              📱 Telepon: +62 XXX XXXX XXXX
+              📱 Telepon: +62 812 5265 2569
             </p>
             <div className="d-flex gap-3">
               <a href="#" className="text-white-50 text-decoration-none">Facebook</a>
@@ -42,7 +42,7 @@ export default function Footer() {
       </div>
       <div className="border-top border-white-50 py-4">
         <div className="container text-center text-white-50">
-          <p className="mb-0">&copy; 2025 Portofolio Refleksi Civic Disposition. Semua hak dilindungi.</p>
+          <p className="mb-0">&copy; 2025 Portofolio Kewarganegaraan. Charsten Richard Tewu.</p>
           <p className="mb-0 small mt-2">Dibuat dengan komitmen untuk pendidikan dan pengembangan karakter warga negara 🇮🇩</p>
         </div>
       </div>

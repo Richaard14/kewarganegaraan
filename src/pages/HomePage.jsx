@@ -14,9 +14,6 @@ export default function HomePage() {
               <p className="lead mb-4">
                 Portofolio ini mendokumentasikan pembelajaran dan refleksi saya dalam mata kuliah Kewarganegaraan di Matana University, serta pemahaman tentang peran dan tanggung jawab sebagai warga negara.
               </p>
-              <p className="fs-5 mb-5">
-                Portofolio ini menunjukkan komitmen saya dalam mengembangkan kewarganegaraan dan berkontribusi bagi masyarakat.
-              </p>
               <div className="d-flex gap-3 flex-wrap">
                 <Link to="/tentang" className="btn btn-light btn-lg px-4 py-3">
                   📚 Mulai Membaca
@@ -76,7 +73,7 @@ export default function HomePage() {
                   <div style={{ fontSize: '50px', marginBottom: '15px', animationDelay: '0.9s' }} className="animate-float">🤝</div>
                   <h5 className="card-title fw-bold">Koneksi</h5>
                   <p className="card-text text-muted">
-                    Mari terhubung dan berbagi pengalaman tentang civic disposition
+                    Kenal lebih dekat dan hubungi saya untuk berdiskusi lebih lanjut
                   </p>
                 </div>
               </div>
@@ -90,7 +87,7 @@ export default function HomePage() {
         <div className="container text-center animate-fade-in">
           <h2 className="fw-bold mb-4">Siap untuk Memulai?</h2>
           <p className="fs-5 mb-4">
-            Jelajahi portofolio saya dan pelajari lebih lanjut tentang perjalanan civic disposition saya
+            Jelajahi portofolio saya dan pelajari lebih lanjut tentang perjalanan Mata Kuliah Kewarganegaraan saya
           </p>
           <Link to="/tentang" className="btn btn-light btn-lg px-5 py-3 fw-bold">
             Eksplorasi Sekarang →

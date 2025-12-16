@@ -7,6 +7,7 @@ import RefleksiPage from './pages/RefleksiPage';
 import PembelajaranPage from './pages/PembelajaranPage';
 import PencapaianPage from './pages/PencapaianPage';
 import KontakPage from './pages/KontakPage';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Router>
       <div className="d-flex flex-column min-vh-100">
         <Navbar />
+        <ScrollToTop /> {/* <-- scroll otomatis ke atas */}
         <main className="flex-grow-1">
           <Routes>
             <Route path="/" element={<HomePage />} />

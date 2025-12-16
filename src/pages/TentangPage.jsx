@@ -5,10 +5,24 @@ export default function TentangPage() {
   return (
     <div>
       {/* Header */}
-      <section className="py-5" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white' }}>
-        <div className="container animate-fade-in-down">
-          <h1 className="display-4 fw-bold mb-3">Tentang Saya</h1>
-          <p className="lead">Kenali lebih dalam perjalanan pembelajaran saya</p>
+<section
+        className="py-5"
+        style={{
+          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+          color: 'white',
+          animation: 'fadeInDown 0.8s ease-out'
+        }}
+      >
+        <div className="container text-center">
+          <h1
+            className="display-4 fw-bold mb-3"
+            style={{ animation: 'fadeInDown 0.8s ease-out 0.1s both' }}
+          >
+            Tentang Saya
+          </h1>
+          <p className="lead" style={{ animation: 'fadeInUp 0.8s ease-out 0.2s both' }}>
+            Kenali Lebih Dekat Dengan Perjalanan dan Nilai-Nilai Saya
+          </p>
         </div>
       </section>
 
@@ -110,7 +124,7 @@ export default function TentangPage() {
                   </div>
                   <div className="ms-4">
                     <h5 className="fw-bold">Perkuliahan Dimulai</h5>
-                    <p className="text-muted">Memulai perjalanan mempelajari civic disposition dan nilai-nilai kewarganegaraan</p>
+                    <p className="text-muted">Memulai perjalanan mempelajari dasar-dasar mata kuliah Kewarganegaraan</p>
                   </div>
                 </div>
                 <div className="d-flex mb-5 animate-fade-in-left" style={{ animationDelay: '0.2s' }}>
@@ -121,7 +135,7 @@ export default function TentangPage() {
                     </div>
                   </div>
                   <div className="ms-4">
-                    <h5 className="fw-bold">Refleksi Mendalam</h5>
+                    <h5 className="fw-bold">Refleksi</h5>
                     <p className="text-muted">Melakukan refleksi tentang kesadaran, kebersamaan, dan pengembangan diri</p>
                   </div>
                 </div>
@@ -129,12 +143,12 @@ export default function TentangPage() {
                   <div style={{ width: '40px', minWidth: '40px' }}>
                     <div className="rounded-circle bg-warning text-white d-flex align-items-center justify-content-center" 
                          style={{ width: '40px', height: '40px', fontSize: '20px' }}>
-                      🏆
+                      🖼️
                     </div>
                   </div>
                   <div className="ms-4">
-                    <h5 className="fw-bold">Pencapaian & Pertumbuhan</h5>
-                    <p className="text-muted">Meraih pencapaian dan terus berkembang sebagai warga negara yang lebih baik</p>
+                    <h5 className="fw-bold">Membuat Karya</h5>
+                    <p className="text-muted">Menghasilkan karya-karya seperti podcast, artikel ilmiah, dan PPT Presentasi</p>
                   </div>
                 </div>
               </div>
