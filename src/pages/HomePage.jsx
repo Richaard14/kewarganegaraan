@@ -12,17 +12,14 @@ export default function HomePage() {
             <div className="col-lg-6 animate-fade-in-left">
               <h1 className="display-4 fw-bold mb-4">Selamat Datang!</h1>
               <p className="lead mb-4">
-                Portofolio Civic Disposition saya adalah dokumentasi perjalanan pembelajaran dan refleksi pribadi tentang peran saya sebagai warga negara yang bertanggung jawab.
+                Portofolio ini mendokumentasikan pembelajaran dan refleksi saya dalam mata kuliah Kewarganegaraan di Matana University, serta pemahaman tentang peran dan tanggung jawab sebagai warga negara.
               </p>
               <p className="fs-5 mb-5">
-                Melalui portofolio ini, saya menunjukkan komitmen terhadap pengembangan diri dan kontribusi positif kepada masyarakat.
+                Portofolio ini menunjukkan komitmen saya dalam mengembangkan kewarganegaraan dan berkontribusi bagi masyarakat.
               </p>
               <div className="d-flex gap-3 flex-wrap">
                 <Link to="/tentang" className="btn btn-light btn-lg px-4 py-3">
                   📚 Mulai Membaca
-                </Link>
-                <Link to="/kontak" className="btn btn-outline-light btn-lg px-4 py-3">
-                  ✉️ Hubungi Saya
                 </Link>
               </div>
             </div>
@@ -44,7 +41,7 @@ export default function HomePage() {
               <div className="card h-100 shadow-sm border-0">
                 <div className="card-body text-center">
                   <div style={{ fontSize: '50px', marginBottom: '15px' }} className="animate-float">💭</div>
-                  <h5 className="card-title fw-bold">Refleksi Mendalam</h5>
+                  <h5 className="card-title fw-bold">Refleksi</h5>
                   <p className="card-text text-muted">
                     Refleksi tentang kesadaran, kebersamaan, dan pengembangan diri
                   </p>
@@ -55,7 +52,7 @@ export default function HomePage() {
               <div className="card h-100 shadow-sm border-0">
                 <div className="card-body text-center">
                   <div style={{ fontSize: '50px', marginBottom: '15px', animationDelay: '0.3s' }} className="animate-float">📖</div>
-                  <h5 className="card-title fw-bold">Pembelajaran</h5>
+                  <h5 className="card-title fw-bold">Modul Pembelajaran</h5>
                   <p className="card-text text-muted">
                     Perjalanan pembelajaran selama 8 minggu dengan insight berharga
                   </p>
@@ -65,8 +62,8 @@ export default function HomePage() {
             <div className="col-md-6 col-lg-3 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
               <div className="card h-100 shadow-sm border-0">
                 <div className="card-body text-center">
-                  <div style={{ fontSize: '50px', marginBottom: '15px', animationDelay: '0.6s' }} className="animate-float">🏆</div>
-                  <h5 className="card-title fw-bold">Pencapaian</h5>
+                  <div style={{ fontSize: '50px', marginBottom: '15px', animationDelay: '0.6s' }} className="animate-float">🖼️</div>
+                  <h5 className="card-title fw-bold">Showcase Karya</h5>
                   <p className="card-text text-muted">
                     Capaian dan bukti nyata dari pembelajaran dan komitmen saya
                   </p>
