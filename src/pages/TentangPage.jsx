@@ -8,7 +8,7 @@ export default function TentangPage() {
 <section
         className="py-5"
         style={{
-          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+          background: 'linear-gradient(135deg, #e0dedeff 0%, #000000ff 100%)',
           color: 'white',
           animation: 'fadeInDown 0.8s ease-out'
         }}

@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-5" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white', minHeight: '70vh', display: 'flex', alignItems: 'center' }}>
+      <section className="py-5" style={{ background: 'linear-gradient(135deg, #ffffffff 0%, #575757ff 100%)', color: 'black', minHeight: '70vh', display: 'flex', alignItems: 'center' }}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 animate-fade-in-left">
@@ -83,13 +83,13 @@ export default function HomePage() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-5" style={{ background: 'linear-gradient(135deg, #764ba2 0%, #667eea 100%)', color: 'white' }}>
+      <section className="py-5" style={{ background: 'linear-gradient(135deg, #ffffffff 0%, #ffffffff 100%)', color: 'black' }}>
         <div className="container text-center animate-fade-in">
           <h2 className="fw-bold mb-4">Siap untuk Memulai?</h2>
           <p className="fs-5 mb-4">
             Jelajahi portofolio saya dan pelajari lebih lanjut tentang perjalanan Mata Kuliah Kewarganegaraan saya
           </p>
-          <Link to="/tentang" className="btn btn-light btn-lg px-5 py-3 fw-bold">
+          <Link to="/tentang" className="btn btn-secondary btn-lg px-5 py-3 fw-bold">
             Eksplorasi Sekarang →
           </Link>
         </div>
